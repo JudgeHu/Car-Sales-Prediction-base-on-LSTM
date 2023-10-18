@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
 # Computing with the GPU
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # 设置调用GPU，如果无法调用GPU，则使用CPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu") 
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
